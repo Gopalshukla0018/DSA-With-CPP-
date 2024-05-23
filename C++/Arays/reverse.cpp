@@ -5,7 +5,7 @@ using namespace std;
 void reverse(int arr[], int n) {
     int start = 0; // Starting index
     int end = n - 1; // Ending index
-    while (start <= end) {
+    while (start <= end) { 
         swap(arr[start], arr[end]); // Swap the elements at start and end
         start++; // Move start forward
         end--; // Move end backward
