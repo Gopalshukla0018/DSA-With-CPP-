@@ -8,9 +8,10 @@ void update(int arr[],int n){
  for(int i=0;i<3;i++)
   { 
     cout<<arr[i]<<" ";
+    
   }   
   cout<<endl;
-    
+      
     cout<<"going back to main";
 }
 int main(){
